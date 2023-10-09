@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="bodys">
+     <div class="insbody">
+      <div class="screen">
+        <input
+          class="sc"
+          type="screen"
+          value="                                               0"/>
+      </div>
+      <div class="nu">
+        <button>ON</button>
+        <button class="clear">clear</button>
+        <button class="equal">=</button>
+      </div>
+      <div class="num">
+        <button class="n">1</button>
+        <button class="n">2</button>
+        <button class="n">3</button>
+        <button class="n">+</button>
+        <button class="n">4</button>
+        <button class="n">5</button>
+        <button class="n">6</button>
+        <button class="n">-</button>
+        <button class="n">7</button>
+        <button class="n">8</button>
+        <button class="n">9</button>
+        <button class="n">x</button>
+        <button class="n">0</button>
+        <button class="n">00</button>
+        <button class="n">.</button>
+        <button class="n">/</button>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
+<script src="scripts.js"></script>
+<style>
+  .screen {
+    border-color: black;
+    background-color: black;
+    height: 90px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  .num {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0px;
+    column-gap: 0px;
+    row-gap: -90px;
+    height: 90px;
+    width: 200px;
+    margin-left: 180px;
+  }
+  .n {
+    width: 30px;
+    margin: 30px;
+    margin-top: 0px;
+    height: 30px;
+  }
+  .nu {
+    margin-left: 210px;
+    margin-top: 4px;
+    padding: 3px;
+  }
+  .clear {
+    width: 100px;
+  }
+  .equal {
+    width: 30px;
+  }
+  .sc {
+    width: 190px;
+    margin-top: 44px;
+    height: 40px;
+    margin-left: 1px;
+    text-size-adjust: 30px;
+  }
+  .bodys{
+    height: 400px;
+    background-color: gold;
+    margin: 40px
+    
+
+
+  }
+  .insbody{
+    background-color: ;
+  }   
+
+  }
+</style>
